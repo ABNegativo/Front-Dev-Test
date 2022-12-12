@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Flipzy</title>
+
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+
+	<style type="text/css">
+		
+		@font-face {
+			font-family: "gotham_Fonte";
+			src: url("GothamLight.ttf") format(truetype);
+			font-style: normal;
+		}
+
+		p,h1,h2,h3,h4 {
+			font-family: "gotham_Fonte";
+		}
+	
+
+	</style>
+
+</head>
+
+<body>
+	<header>
+		<div>
+			<img src="Logo.png" alt="Logo marca da Flipzy"  id="Logo"> 
+		</div>	
+	</header>
+	
+	<main>
+
+		<div>
+			<h1> <strong> Futebol </strong> </h1>
+			<p id="copa_Qatar">Copa do mundo - Qatar 2022</p>
+			<section id="primeira_Sessao">	
+				<p id="brasil" class="formato_Geral"> Brasil <img src="brazil-flag.png" id="bandeira_Brasil" alt="Bandeira do Brasil"></p>
+				<p id="versus">X</p>
+				<p id="croacia" class="formato_Geral"> Croácia <img src="croatia-flag.png" id="bandeira_Croacia" alt="Bandeira da Croácia"></p>
+				<p id="casa">casa</p><p id="fora">fora</p>
+				<p id="data">09/12 6:00</p>
+			</section>
+		</div>
+		<div>
+			<h2> Aposte na vitória </h2>
+			<section class="geral">
+				<p class="formato_Geral">ganhar na primeira metade
+					<input type="submit" value="3.1" class="caixa">
+					<input type="submit" value="2.0" class="caixa">
+					<input type="submit" value="1.3" class="caixa">
+				</p>
+				<div class="formato">
+				<p class="casa">Casa</p>
+				<p class="Empate">Empate</p>
+				<p class="fora">Fora</p>
+				</div>
+			</section>
+		</div>
+		<div>
+			<h3><strong> Outras apostas </strong></h3>
+			<div>
+				
+				<section class="geral">
+				<p class="formato_Geral"> Gol no 1° tempo
+					<input type="submit" value="3.5" class="caixa">
+					<input type="submit" value="1.5" class="caixa">
+				</p>
+				<div class="formato">
+				<p class="sim">Sim</p>
+				<p class="nao">Não</p>
+				</div>
+				</section>
+				
+				<section class="geral">
+				<p class="formato_Geral">Gol no 2° tempo
+					<input type="submit" value="1.5" class="caixa">
+					<input type="submit" value="2.0" class="caixa">
+				</p>
+				<div class="formato">
+				<p class="sim">Sim</p>
+				<p class="nao">Não</p>
+			 	</div>
+				</section>
+
+				<section class="geral">
+				<p class="formato_Geral"> Ganha na primeira metade
+					<input type="submit" value="3.5" class="caixa">
+					<input type="submit" value="4.0" class="caixa">
+					<input type="submit" value="1.3" class="caixa">
+				</p>
+				<div class="formato">
+				<p class="casa">Casa</p>
+				<p class="Empate">Empate</p>
+				<p class="fora">Fora</p>
+				</div>	
+				</section>
+				
+				<section class="geral">
+				<p class="formato_Geral"> Ganha na segunda metade
+					<input type="submit" value="3.5" class="caixa">
+					<input type="submit" value="4.0" class="caixa">
+					<input type="submit" value="1.5" class="caixa">
+				</p>
+				<div class="formato">
+				<p class="casa">Casa</p>
+				<p class="Empate">Empate</p>
+				<p class="fora">Fora</p>
+				</div>
+				</section>
+			</div>
+
+		</div>
+		<div>
+			<h4>Finalizar aposta</h4>
+
+			<section>
+				<p class="segunda_Sessao">valor da aposta</p>
+				
+				<p class="objetos">
+					<input type="text" name="valor_Aposta" value="R$ " id="caixa_Texto">
+				</p>
+
+				<p  class="objetos" >
+					<button type="submit" id="enviar">Finalizar aposta</button>
+				</p>
+
+			</section>
+		</div>
+		<div>
+			<script type="text/javascript">
+
+				var input = document.querySelector("input");
+
+				function mostrarTexto() {
+	   
+	   			alert(input.value);
+
+
+				}
+
+				function texto (){
+				alert("Sei que o site está com alguns problemas em relação a escala quando movido a imagem para mobile ou até mesmo quando coloca o site em modo janela, porém por questão de tempo não vou conseguir arrumar.Sei JS, porém nunca fiz uma aplicação de JSON da forma que foi pedido, sei que é bem simples, mas eu teria que estudar e ir aplicando com cuidado para não quebrar nada, porém novamente, pelo tempo provavelmente eu não iria conseguir e iria quebrar o site (é, eu realmente não consegui)… Dei meu melhor, posso não ter feito da melhor forma muitas coisas, porém dei meu máximo e mesmo não sendo contratado vou ficar feliz por ter tido a chance de testar até onde eu conseguiria fazer, e até que no final das contas fiquei feliz com o resultado, mesmo não sendo 100% do que foi pedido. Ah, sei também que os botões de apostas não era bem daquela forma que vocês queriam, mas infelizmente eu não consegui achar uma forma que eu tenha conhecimento para fazer igual e mesmo pesquisando não encontrei. Era isso, obrigado :)");
+				}
+
+  				var button = document.querySelector("button");
+  				button.onclick = texto;
+					
+			</script>
+		</div>
+
+	</main>
+	
+	<footer>
+	
+	</footer>
+</body>
+
+</html>

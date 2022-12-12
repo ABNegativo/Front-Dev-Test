@@ -1,0 +1,254 @@
+
+/*-------------------------------------------------------------------------------*/
+
+header {
+	background: #1A212A;
+	padding:20px 0;
+}
+ 
+ #Logo { /*logo marca/header*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto 
+}
+
+main {
+	/*background: #1A212A;*/
+	background: #2C323A;
+}
+
+h1 {
+	font-weight: bold;
+	position: relative;
+ 	text-align: center;
+	right: 540px;
+ 	top: 20px;
+}
+
+#primeira_Sessao{
+	background-color: #1A212A;
+	border-radius: 10px;
+	margin: 25px 60px 0px 60px;
+}
+
+ #copa_Qatar {
+ 	position: relative;
+ 	text-align: center;
+ 	right: 455px;
+ 	top: 20px;
+ 	color: #8D9DA8;
+ }
+
+ #brasil {
+ 	font-size: 25px;
+ 	font-weight: bold;
+ 	position: relative;
+ 	left: 35px;
+ 	top: 15px;
+ }
+
+ #bandeira_Brasil {
+ 	position: relative;
+ 	top: 10px;
+ 	left: 10px;
+ }
+
+ #croacia {
+ 	font-size: 25px;
+ 	font-weight: bold;
+ 	position: relative;
+ 	text-align: right;
+ 	right: 30px;
+ 	bottom: 35px;
+
+ }
+
+ #bandeira_Croacia {
+ 	position: relative;
+ 	top: 10px;
+ 	left: -145px;
+ 
+ }
+
+ #versus {
+ 	text-align: center;
+ 	color: #8D9DA8;
+ }
+
+ #casa {
+ 	position: relative;
+ 	text-align: left;
+ 	left: 50px;
+ 	bottom: 35px;
+ 	font-size: 13px;
+ 	color: #8D9DA8;
+
+ }
+
+ #fora {
+ 	position: relative;
+ 	text-align: right;
+ 	right: 100px;
+ 	bottom: 45px;
+ 	font-size: 13px;
+ 	color: #8D9DA8;
+ }
+
+ #data {
+ 	position: relative;
+ 	text-align: center;
+ 	bottom: 25px;
+ 	font-size: 13px;
+ 	color: #8D9DA8;
+ }
+
+
+ h1,h2,h3,h4{
+	 color: #FFFFFF;
+ }
+
+h2,h3,h4{
+	font-weight: bold;
+	position: relative;
+ 	padding-left: 35px ;
+ 	padding-top: 1em;
+ 	padding-bottom: 1em;
+}
+
+.formato_Geral{
+	color: #FFFFFF;
+}
+
+.formato {
+	font-size: 13px;
+ 	color: #8D9DA8;
+}
+
+.caixa{
+	position: relative;
+	display: inline;
+  padding: 10px 10px 10px 10px ; /*espaçamento interno*/
+  background: #2C323A; /*cor de fundo*/
+  color: #FFFFFF; /*cor do texto*/
+  font-weight: bold; /*negrito*/
+  font-size: 15px; /*tamanho da letra*/
+  border: none; /*tirar a borda*/
+  border-radius: 5px; /*borda arrodondada*/
+  cursor: pointer; /*mudar o cursos do mouse para click*/
+  box-sizing: border-box;
+ 	border:2px solid #2C323A;
+ 	border-radius: 10px;
+ 	margin: 0 10px 0 40px;
+  }
+
+.caixa:focus-visible {
+ 	outline: 2px solid #90FF81;
+}
+
+.caixa:focus:not(:focus-visible) {
+  outline: none;
+  border: 2px solid #90FF81;
+}
+
+.geral {
+	background-color: #1A212A;
+ 	position: relative;
+ 	padding: 35px 0 35px 35px;
+ 	margin: 0 7px 1px 7px;
+ }
+
+.sim {
+	position: relative;
+	display: inline;
+	bottom: 65px;
+	left: 182px;
+}
+
+.nao {
+	position: relative;
+	display: inline;
+	bottom: 65px;
+	left: 252px;
+}
+
+.casa {
+	position: relative;
+	display: inline;
+	bottom: 65px;
+	left: 262px;
+}
+
+.Empate {
+	position: relative;
+	display: inline;
+	bottom: 65px;
+	left: 320px;
+
+}
+
+
+.fora {
+	position: relative;
+	display: inline;
+	bottom: 65px;
+	left: 378px;
+
+}
+
+.segunda_Sessao{
+	color: #8D9DA8;
+	background-color: #1A212A;
+ 	position: relative;
+ 	padding: 15px 0 0px 35px;
+ 	margin: 0 7px 0px 7px;
+}
+
+#caixa_Texto {
+	display: block;
+	border-radius: 10px;
+	border: none;
+	color: #FFFFFF;
+	background: #2C323A;
+	padding: 15px 0px 15px 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#caixa_Texto:focus-visible {
+ 	outline: 2px solid #90FF81;
+}
+
+#caixa_Texto:focus:not(:focus-visible) {
+  outline: none;
+  border: 2px solid #90FF81;
+}
+
+.objetos {
+	background-color: #1A212A;
+ 	position: relative;
+ 	padding: 2px 0 30px 35px;
+ 	margin: 0 7px 0px 7px;
+}
+
+#enviar {
+	position: block;
+  	width: 25%; 
+  	padding: 15px 0 ; 
+  	background: #90FF81; 
+  	color: #000000; 
+  	font-weight: bold; 
+  	font-size: 18px;
+  	border: none;
+  	border-radius: 10px;
+  	cursor: pointer;
+  	transition: 1.5s all;
+  }
+
+ #enviar:hover {
+  transform: scale(1.1,1.1);
+ }
+
+footer {
+	background: #2C323A;
+	padding: 15px 0;
+}
